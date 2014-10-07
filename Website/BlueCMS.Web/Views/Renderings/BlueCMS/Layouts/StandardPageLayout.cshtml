@@ -1,0 +1,158 @@
+﻿@using Sitecore.Mvc
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Martin Bean" />
+    <title>Blue CMS Home Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link href="~/js/bluecms/main.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <!-- top navigation-->
+            <nav class="container navbar navbar-default" role="navigation">
+                <div class="container-fluid">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <img class="img-responsive" src="http://www.lorealparisusa.com/LorealParisUS/img/header/logo.png" alt="Skincare, cosmetics, hair care, hair color, hair styling and men's line: L'Oreal Paris" />
+                        </li>
+                    </ul>
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="navbar-static-top" id="bs-example-navbar-collapse-1">
+
+
+                        <ul class="nav navbar-nav navbar-right">
+
+                            <li><a href="#">Offers</a></li>
+                            <li><a href="#">Find a Store</a></li>
+                            <li><a href="#" class="saved-list">Saved</a></li>
+                            <li class="shopping-bag"><a href="#">Shopping Bag (0)</a></li>
+
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">My Account<span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="#">Profile</a></li>
+                                    <li><a href="#">My Beauty Rewards</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Sign Out</a></li>
+
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+                <!-- /.container-fluid -->
+            </nav>
+
+
+            <!-- main navigation-->
+            <div>
+                <nav class="navbar navbar-inverse" role="navigation">
+                    <div class="container">
+                        <ul class="beauty-hq" style="display:none">
+                            <li class="hq01 dark-color" style="background-color:#fedfbf">
+                            <li class="hq02 dark-color" style="background-color:#b0886c">
+                            <li class="hq03 dark-color" style="background-color:#5c99b7">
+                        </ul>
+                        <ul class="nav navbar-nav">
+                            <li><a href="beauty-central.html">My Beauty <span>Picks</span></a></li>
+                            <li class="group">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shop <span class="caret"></span></a>
+                                <ul class="nav navbar-nav">
+                                    <li class="first-link"><a href="supercategory.html">Makeup <img src="" alt=""></a></li>
+                                    <li><a href="supercategory.html">Hair <img src="" alt=""></a></li>
+                                    <li><a href="supercategory.html">Skin care <img src="" alt=""></a></li>
+                                    <li><a href="brand-pages.html">Brands <img src="" alt=""></a></li>
+                                </ul>
+                            </li>
+                            <li class="collapsed">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Advice <span>&amp; Trends</span> <span class="caret"></span></a>
+                                <ul class="nav navbar-nav">
+                                    <li><a href="wow-landingpage.html">Women of Worth <img src="" alt=""></a></li>
+                                    <li><a href="trending-now.html">Trending <img src="" alt=""></a></li>
+                                    <li><a href="beauty-library.html">Beauty Library <img src="" alt=""></a></li>
+                                    <li><a href="beauty-central-tools.html">Tools &amp; Consultations <img src="" alt=""></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <!--
+                           <div class="search-form">
+                               <a href="#" data-behavior="trigger-next">Search<div class="search-icon"><img src="img/header/header-sprite.png" alt="Search"></div></a>
+                               <div role="form">
+                                   <a href="#" class="close" data-behavior="close-parent">x</a>
+                                   <input type="search" class="text" placeholder="What are you looking for?" id="search-query" tabindex="-1" autocomplete="off"><input type="button" class="button all-results" value="GO">
+                               </div>
+                           </div>
+                           <div class="notice">
+                               <p>Get products and beauty advice personalized just for you</p>
+                               <a class="register" href="registration.html">Register</a>
+                               <a class="join" href="registration.html">Sign in</a>
+                           </div>
+                -->
+            </div>
+
+        </header>
+
+        <div class="container">
+            <ol class="breadcrumb">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Library</a></li>
+                <li class="active">Data</li>
+            </ol>
+
+        </div>
+        <!--Content-->
+        @Html.Sitecore().Placeholder("Page-Content")
+
+    </div>
+    <footer>
+        <div class="container">
+            <nav class="navbar" role="navigation">
+                <div class="container">
+               
+                    <ul class="nav navbar-nav">
+                        <li><a href="beauty-central.html">My Beauty <span>Picks</span></a></li>
+                        <li class="group">
+                       
+                            <ul class="nav navbar-nav">
+                                <li class="first-link"><a href="supercategory.html">Makeup <img src="" alt=""></a></li>
+                                <li><a href="supercategory.html">Hair <img src="" alt=""></a></li>
+                                <li><a href="supercategory.html">Skin care <img src="" alt=""></a></li>
+                                <li><a href="brand-pages.html">Brands <img src="" alt=""></a></li>
+                            </ul>
+                        </li>
+                        <li class="collapsed">
+                          
+                            <ul class="nav navbar-nav">
+                                <li><a href="wow-landingpage.html">Women of Worth <img src="" alt=""></a></li>
+                                <li><a href="trending-now.html">Trending <img src="" alt=""></a></li>
+                                <li><a href="beauty-library.html">Beauty Library <img src="" alt=""></a></li>
+                                <li><a href="beauty-central-tools.html">Tools &amp; Consultations <img src="" alt=""></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+        </div>
+    </footer>
+    <script src="~/js/jquery-2.1.1.min.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+</body>
+</html>

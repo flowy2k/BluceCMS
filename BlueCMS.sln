@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{C8E60E01-6F83-4F55-A866-0AFF27F9C95C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TDS", "TDS", "{7E347AC1-EC8E-4C93-8F42-7A9B40DD7D82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueCMS.Core", "Source\BlueCMS.Core\BlueCMS.Core.csproj", "{887EABED-B2FA-4488-BA29-3CF3BA142581}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{5A999D4A-55D1-4AAE-BC51-E754E8F16EF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueCMS.Web", "Website\BlueCMS.Web\BlueCMS.Web.csproj", "{3DA900BE-0F5D-4D2E-B5C7-864CAEE8216B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueCMS.Web.Tests", "Website\BlueCMS.Web.Tests\BlueCMS.Web.Tests.csproj", "{F4E9ADA7-81DA-4455-A4B6-A59F47660040}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{B969B0EF-5B77-4DED-BE12-32C532BFA7D3}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "BlueCMS.TDS.Master", "BlueCMS.TDS.Master\BlueCMS.TDS.Master.scproj", "{983B9338-7366-45C7-8B54-1442ADE03345}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HTML", "HTML", "{E7137A03-715D-4C52-AADB-D837051EDEBB}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "referencecode", "http://localhost:4162", "{5938DFDF-E02D-4B9B-A02B-7962108AE2DD}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_4162"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\Loreal\Brands\LorealParis Sitecore\Creative\referencecode\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4162\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_4162"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\Loreal\Brands\LorealParis Sitecore\Creative\referencecode\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4162\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\..\Loreal\Brands\LorealParis Sitecore\Creative\referencecode\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{887EABED-B2FA-4488-BA29-3CF3BA142581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{887EABED-B2FA-4488-BA29-3CF3BA142581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{887EABED-B2FA-4488-BA29-3CF3BA142581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{887EABED-B2FA-4488-BA29-3CF3BA142581}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DA900BE-0F5D-4D2E-B5C7-864CAEE8216B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DA900BE-0F5D-4D2E-B5C7-864CAEE8216B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DA900BE-0F5D-4D2E-B5C7-864CAEE8216B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DA900BE-0F5D-4D2E-B5C7-864CAEE8216B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4E9ADA7-81DA-4455-A4B6-A59F47660040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4E9ADA7-81DA-4455-A4B6-A59F47660040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4E9ADA7-81DA-4455-A4B6-A59F47660040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4E9ADA7-81DA-4455-A4B6-A59F47660040}.Release|Any CPU.Build.0 = Release|Any CPU
+		{983B9338-7366-45C7-8B54-1442ADE03345}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{983B9338-7366-45C7-8B54-1442ADE03345}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{983B9338-7366-45C7-8B54-1442ADE03345}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{983B9338-7366-45C7-8B54-1442ADE03345}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{983B9338-7366-45C7-8B54-1442ADE03345}.Release|Any CPU.Build.0 = Release|Any CPU
+		{983B9338-7366-45C7-8B54-1442ADE03345}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{5938DFDF-E02D-4B9B-A02B-7962108AE2DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5938DFDF-E02D-4B9B-A02B-7962108AE2DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5938DFDF-E02D-4B9B-A02B-7962108AE2DD}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{5938DFDF-E02D-4B9B-A02B-7962108AE2DD}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{887EABED-B2FA-4488-BA29-3CF3BA142581} = {C8E60E01-6F83-4F55-A866-0AFF27F9C95C}
+		{3DA900BE-0F5D-4D2E-B5C7-864CAEE8216B} = {5A999D4A-55D1-4AAE-BC51-E754E8F16EF7}
+		{F4E9ADA7-81DA-4455-A4B6-A59F47660040} = {5A999D4A-55D1-4AAE-BC51-E754E8F16EF7}
+		{B969B0EF-5B77-4DED-BE12-32C532BFA7D3} = {C8E60E01-6F83-4F55-A866-0AFF27F9C95C}
+		{983B9338-7366-45C7-8B54-1442ADE03345} = {7E347AC1-EC8E-4C93-8F42-7A9B40DD7D82}
+		{5938DFDF-E02D-4B9B-A02B-7962108AE2DD} = {E7137A03-715D-4C52-AADB-D837051EDEBB}
+	EndGlobalSection
+EndGlobal

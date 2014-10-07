@@ -1,0 +1,41 @@
+﻿  html, body {
+            height: 100%;
+            background-color:#f0f0f0;
+        }
+
+        footer {
+            color: #666;
+            background: #222;
+            padding: 17px 0 18px 0;
+            border-top: 1px solid #000;
+        }
+
+            footer a {
+                color: #999;
+            }
+
+                footer a:hover {
+                    color: #efefef;
+                }
+
+        .wrapper {
+            min-height: 100%;
+            height: auto !important;
+            height: 100%;
+            margin: 0 auto 0px;
+            background-color:#f0f0f0;
+        }
+
+     
+
+@media screen and (min-width: 48em){
+    .main {
+        max-width: 75em;
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+#myCarousel .carousel-control {
+    width:5%;
+}
